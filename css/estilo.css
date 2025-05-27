@@ -380,6 +380,44 @@ header {
     gap: 10px;
   }
 
+  .botaoimagem {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .div1, .div2 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div1 img,
+  .div2 img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .div1 ul,
+  .div2 ul {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .div1 p,
+  .div2 p {
+    margin: 10px 0 0 0;
+  }
+
+  .div1 a,
+  .div2 a {
+    font-size: 16px;
+  }
+
   .conteudo {
     width: 100%;
     color: var(--color-primary);
